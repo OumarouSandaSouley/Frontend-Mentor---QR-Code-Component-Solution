@@ -18,18 +18,17 @@
 }
 .container{
     max-width: 320px;
-    padding-inline: 1.1rem;
-    padding-block: 1.1rem;
+    padding:.3rem;
     background: hsl(0, 0%, 100%);
-    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #fff;
-    border-radius: 20px;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.5rem #fff;
+    border-radius: 10px;
 }
 .img-container{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
 }
 .img-container img{
     max-width: 100%;
@@ -52,5 +51,5 @@
     text-align: center;
     color: hsl(216, 15%, 48%);
     font-weight: 400;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.5rem;
 }
